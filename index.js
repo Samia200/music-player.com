@@ -9,7 +9,7 @@ const progressContainer = document.getElementById
 const titel = document.getElementById('titel');
 const cover = document.getElementById('cover');
 
-const songs = [' elhadika-siriya ','drobi', 'kanas']; 
+const songs = ['elhadika-siriya','drobi', 'kanas']; 
 
 let songIndex = 2;
 
