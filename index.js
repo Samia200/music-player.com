@@ -9,7 +9,7 @@ const progressContainer = document.getElementById
 const titel = document.getElementById('titel');
 const cover = document.getElementById('cover');
 
-const songs = ['cute','ukulele', 'adventure']; 
+const songs = [' elhadika-siriya ','drobi', 'kanas']; 
 
 let songIndex = 2;
 
@@ -18,7 +18,7 @@ loadSong(songs[songIndex]);
 function loadSong(song){
 cover.src = `${song}.jpeg`;
 titel.innerText = song;
-audio.src = `music/bensound-${song}.mp3`;
+audio.src = `music/${song}.mp3`;
 };
 
 playBtn.addEventListener("click", ()  =>{
